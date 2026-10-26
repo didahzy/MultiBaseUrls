@@ -1,0 +1,20 @@
+# Template for local-only settings. Copy to gradle.properties (gitignored) and fill in:
+#   cp gradle.properties.example gradle.properties
+
+# --- Build settings (safe to commit; duplicated here so a fresh clone works) ---
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+org.gradle.configuration-cache=true
+kotlin.code.style=official
+
+# --- Maven Central publishing (Central Portal user token) ---
+# mavenCentralUsername=
+# mavenCentralPassword=
+#
+# --- GPG signing ---
+# signing.keyId=
+# signing.password=
+# signing.secretKeyRingFile=
+#
+# --- Optional overrides ---
+# mavenGroupId=io.github.didahzy
+# mavenVersion=0.1.0
